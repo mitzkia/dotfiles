@@ -1,0 +1,21 @@
+{
+    "editor.cursorStyle": "block",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [ 80, 120 ],
+    "files.associations": { "*.zts": "python" },
+    "files.autoSave": "onWindowChange",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 2,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#ff0000",
+        "editor.selectionBackground": "#e788ff", //Current SELECTED text
+        "editor.selectionHighlightBackground": "#ff0000", //same content as the selec$
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
+        "editorRuler.foreground": "#ff4081"
+    }
+}
