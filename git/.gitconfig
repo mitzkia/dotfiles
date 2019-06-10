@@ -1,0 +1,11 @@
+[user]
+	email = andras.mitzki@balabit.com
+	name = Andras Mitzki
+#[core]
+#	sshCommand = ssh -vvv
+[format]
+	pretty = fuller
+[sequence]
+	editor = /home/micek/workspace_tools/git-interactive-rebase-tool/interactive-rebase-tool
+[icdiff]
+	options = --highlight --line-numbers
