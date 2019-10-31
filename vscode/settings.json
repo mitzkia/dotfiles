@@ -1,5 +1,10 @@
 {
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": ["--ignore=E501", "--verbose"],
     "editor.cursorStyle": "block",
+    "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.rulers": [ 80, 120 ],
     "files.associations": { "*.zts": "python" },
@@ -11,11 +16,13 @@
     "window.zoomLevel": 2,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#ff0000",
+        "editor.lineHighlightBackground": "#b0e0e6", // for light theme
+        // "editor.lineHighlightBackground": "#ff0000", // for dark theme
         "editor.selectionBackground": "#e788ff", //Current SELECTED text
         "editor.selectionHighlightBackground": "#ff0000", //same content as the selec$
         "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
         "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
         "editorRuler.foreground": "#ff4081"
-    }
+    },
+    "workbench.colorTheme": "Quiet Light"
 }
